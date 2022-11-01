@@ -21,9 +21,13 @@
   align-items: center;
   justify-content: center;
 }
+.navbar img {
+  margin-right: .5rem;
+}
+
 
 /* Styling Hero Section */
-section {
+.sectionDes {
   display: flex;
   align-items: center;
   justify-items: center;
@@ -43,6 +47,7 @@ section {
 .coverImg {
   width: 250px;
   height: 330px;
+  border-radius: 10px;
 }
 
 .imgDescription {
@@ -53,7 +58,6 @@ section {
   height: 18px;
   width: 12px;
   margin-right: .5rem;
-  
 }
 
 .countryName{
@@ -68,7 +72,7 @@ section {
   font-weight: 300;
   font-size: 20px;
   letter-spacing: 1px;
-  
+  margin-left: 1rem;
 }
 
 .placeName{
@@ -93,14 +97,13 @@ section {
 }
 
 
-.hrC {
-  background-color: red;
+hr.horizLine {
+  border: 1px solid #F5F5F5;
 }
 
 @media screen and (max-width:900px) {
 
-section{
-  background-color:yellow;
+.sectionDes{
   margin: auto;
   padding: 30px;
 }
