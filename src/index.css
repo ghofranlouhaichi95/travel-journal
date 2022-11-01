@@ -16,9 +16,6 @@
   color: #FFFF;
   font-weight: 500;
   font-size: 14.46px;
-  line-height: auto;
-  letter-spacing: -7.5%;
-  /* width: 550px; */
   height: 55px;
   display: flex;
   align-items: center;
@@ -28,22 +25,19 @@
 /* Styling Hero Section */
 section {
   display: flex;
-/*   background-color: red; */
-  padding: 40px;
   align-items: center;
-  height: 400px;
   justify-items: center;
+  padding: 40px;
   color: #2B283A;
   margin-right: 2rem;
   margin-left: 2rem;
-  
 }
 
 .heroSection {
   display: flex;
-  justify-content: center;
   align-items: center;
-  
+  width: 90%;
+  margin: 0 auto;
 }
 
 .coverImg {
@@ -64,8 +58,8 @@ section {
 
 .countryName{
   font-weight: 300;
-  font-size: 20.24px;
-  letter-spacing: 3px;
+  font-size: 20px;
+  letter-spacing: 2.5px;
   line-height: 50px;
 }
 
@@ -81,7 +75,8 @@ section {
   font-weight: 700 ;
   font-size: 35px;
   letter-spacing:2px ;
-  line-height: 70px;
+  /* line-height: 70px; */
+  margin-bottom: 1rem;
 }
 
 .period{
@@ -96,3 +91,48 @@ section {
   font-size: 16px;
   letter-spacing: 1px;
 }
+
+
+.hrC {
+  background-color: red;
+}
+
+@media screen and (max-width:900px) {
+
+section{
+  background-color:yellow;
+  margin: auto;
+  padding: 30px;
+}
+
+  .coverImg {
+  width: 250px;
+  height: 270px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroSection {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.imgDescription {
+  margin: auto;
+}
+}
+/* Mobile Styling */
+/* 
+.coverImg {
+    width: 250px;
+    height: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+*/
