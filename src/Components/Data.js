@@ -1,7 +1,7 @@
 const DataTable = [
     {
         id:1,
-        coverImg:"/imageP/japan.png",
+        coverImg:"/imagesP/japan.png",
         location: 'Japan',
         placeName: 'Mount Fuji',
         period: '12 Jan, 2021 - 24 Jan, 2021',
@@ -10,16 +10,16 @@ const DataTable = [
     },
     {
         id:2,
-        coverImg:"/imageP/australia.png",
+        coverImg:"/imagesP/australia.png",
         location: 'Australia',
         placeName: 'Sydney Opera House',
         period: '27 May, 2021 - 8 Jun, 2021',
-        description: 'The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th centurys most famous and distinctive buildings',
+        description: 'The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th centurys most famous and distinctive buildings.',
         
     },
     {
         id:3,
-        coverImg:"/imageP/norway.png",
+        coverImg:"/imagesP/norway.png",
         location: 'Norway',
         placeName: 'Geirangerfjord',
         period: '01 Oct, 2021 - 18 Nov, 2021',

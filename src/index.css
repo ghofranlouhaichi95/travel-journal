@@ -1,13 +1,98 @@
-body {
+/* Import Google font : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Global Styling */
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
+  font-family: 'Inter', sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* Styling Navbar */
+.navbar {
+  background-color: #F55A5A;
+  color: #FFFF;
+  font-weight: 500;
+  font-size: 14.46px;
+  line-height: auto;
+  letter-spacing: -7.5%;
+  /* width: 550px; */
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling Hero Section */
+section {
+  display: flex;
+/*   background-color: red; */
+  padding: 40px;
+  align-items: center;
+  height: 400px;
+  justify-items: center;
+  color: #2B283A;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  
+}
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.coverImg {
+  width: 250px;
+  height: 330px;
+}
+
+.imgDescription {
+  margin-left: 2rem;
+}
+
+.locationIcon{
+  height: 18px;
+  width: 12px;
+  margin-right: .5rem;
+  
+}
+
+.countryName{
+  font-weight: 300;
+  font-size: 20.24px;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.locationLink {
+  color: #918E9B;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+  
+}
+
+.placeName{
+  font-weight: 700 ;
+  font-size: 35px;
+  letter-spacing:2px ;
+  line-height: 70px;
+}
+
+.period{
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.description{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
